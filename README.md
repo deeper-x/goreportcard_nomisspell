@@ -2,23 +2,7 @@
 
 # Go Report Card
 
-A web application that generates a report on the quality of an open source Go project. It uses several measures, including `gofmt`, `go vet`, `go lint` and `gocyclo`. To get a report on your own project, try [goreportcard.com](https://goreportcard.com).
-
-### Sponsors
-
-Support us over on [Patreon](https://www.patreon.com/goreportcard)!
-
-<a href="https://cooperpress.com"><img src="https://goreportcard.com/assets/cooperpress.png" width="50%" height="50%"></a>
-
-<a href="https://www.digitalocean.com?utm_medium=opensource&utm_source=goreportcard"><img src="https://goreportcard.com/assets/digitalocean.svg" width="50%" height="50%"></a>
-
-- [Cody Wood](https://www.linkedin.com/in/sprkyco/)
-- Pascal Wenger
-- Jonas Kwiedor
-- [PhotoPrism](https://photoprism.app)
-- Kia Farhang
-- [Patrick DeVivo](https://twitter.com/patrickdevivo) ([MergeStat](https://github.com/mergestat/mergestat))
-- [Alexis Geoffrey](https://github.com/alexisgeoffrey)
+A web application that generates a report on the quality of an open source Go project. It uses several measures, including `gofmt`, `go vet`, `go lint` and `gocyclo`. 
 
 ### Installation
 
@@ -92,25 +76,3 @@ ineffassign: 100%
 license: 100%
 misspell: 100%
 ```
-
-### Contributing
-
-Go Report Card is an open source project run by volunteers, and contributions are welcome! Check out the [Issues](https://github.com/gojp/goreportcard/issues) page to see if your idea has already been mentioned. Feel free to raise an issue or submit a pull request.
-
-### Academic Citation
-
-If you use Go Report Card for academic purposes, please use the following citation:
-
-```
-@Misc{schaaf-smith-goreportcard,
-    author = {Schaaf, Herman and Smith, Shawn},
-    title  = {Go Report Card: A report card for your Go application},
-    year   = {2015--},
-    url    = {https://www.goreportcard.com/},
-    note   = {[Online; accessed <today>]}
-}
-```
-
-### License
-
-The code is licensed under the permissive Apache v2.0 license. [Read this](https://tldrlegal.com/license/apache-license-2.0-(apache-2.0)) for a summary.
