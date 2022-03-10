@@ -1,4 +1,4 @@
-# Go Report Card
+# Go Report Card - without english spelling check
 
 A web application that generates a report on the quality of an open source Go project. It uses several measures, including `gofmt`, `go vet`, `go lint` and `gocyclo`. 
 
